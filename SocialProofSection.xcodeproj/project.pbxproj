@@ -13,6 +13,7 @@
 		90BE735527F1496F00AF987C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE734327F1496F00AF987C /* ContentView.swift */; };
 		90BE735627F1496F00AF987C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BE734427F1496F00AF987C /* Assets.xcassets */; };
 		90BE735727F1496F00AF987C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BE734427F1496F00AF987C /* Assets.xcassets */; };
+		90BE736227F149FA00AF987C /* Spartan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90BE736127F149FA00AF987C /* Spartan.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		90BE734927F1496F00AF987C /* SocialProofSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialProofSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BE734F27F1496F00AF987C /* SocialProofSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialProofSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90BE735127F1496F00AF987C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		90BE736127F149FA00AF987C /* Spartan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spartan.ttf; sourceTree = "<group>"; };
+		90BE736327F14A0A00AF987C /* SocialProofSection--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SocialProofSection--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,7 @@
 		90BE733C27F1496E00AF987C = {
 			isa = PBXGroup;
 			children = (
+				90BE736327F14A0A00AF987C /* SocialProofSection--iOS--Info.plist */,
 				90BE734127F1496F00AF987C /* Shared */,
 				90BE735027F1496F00AF987C /* macOS */,
 				90BE734A27F1496F00AF987C /* Products */,
@@ -54,6 +58,7 @@
 		90BE734127F1496F00AF987C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				90BE736027F149F000AF987C /* Fonts */,
 				90BE734227F1496F00AF987C /* SocialProofSectionApp.swift */,
 				90BE734327F1496F00AF987C /* ContentView.swift */,
 				90BE734427F1496F00AF987C /* Assets.xcassets */,
@@ -76,6 +81,14 @@
 				90BE735127F1496F00AF987C /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		90BE736027F149F000AF987C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				90BE736127F149FA00AF987C /* Spartan.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BE736227F149FA00AF987C /* Spartan.ttf in Resources */,
 				90BE735627F1496F00AF987C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +257,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -295,6 +311,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -312,6 +330,7 @@
 				DEVELOPMENT_TEAM = 862P2X6G9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SocialProofSection--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -342,6 +361,7 @@
 				DEVELOPMENT_TEAM = 862P2X6G9G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SocialProofSection--iOS--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
