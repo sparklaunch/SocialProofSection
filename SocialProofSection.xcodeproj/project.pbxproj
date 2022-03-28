@@ -14,6 +14,9 @@
 		90BE735627F1496F00AF987C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BE734427F1496F00AF987C /* Assets.xcassets */; };
 		90BE735727F1496F00AF987C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90BE734427F1496F00AF987C /* Assets.xcassets */; };
 		90BE736227F149FA00AF987C /* Spartan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90BE736127F149FA00AF987C /* Spartan.ttf */; };
+		90BE736627F14D6D00AF987C /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE736527F14D6D00AF987C /* Header.swift */; };
+		90BE736827F14DCE00AF987C /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE736727F14DCE00AF987C /* Background.swift */; };
+		90BE736B27F14EC100AF987C /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE736A27F14EC100AF987C /* CustomFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		90BE735127F1496F00AF987C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		90BE736127F149FA00AF987C /* Spartan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spartan.ttf; sourceTree = "<group>"; };
 		90BE736327F14A0A00AF987C /* SocialProofSection--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SocialProofSection--iOS--Info.plist"; sourceTree = "<group>"; };
+		90BE736527F14D6D00AF987C /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		90BE736727F14DCE00AF987C /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		90BE736A27F14EC100AF987C /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		90BE734127F1496F00AF987C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				90BE736927F14EB000AF987C /* Utilities */,
+				90BE736427F14D6500AF987C /* Components */,
 				90BE736027F149F000AF987C /* Fonts */,
 				90BE734227F1496F00AF987C /* SocialProofSectionApp.swift */,
 				90BE734327F1496F00AF987C /* ContentView.swift */,
@@ -89,6 +97,23 @@
 				90BE736127F149FA00AF987C /* Spartan.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		90BE736427F14D6500AF987C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				90BE736527F14D6D00AF987C /* Header.swift */,
+				90BE736727F14DCE00AF987C /* Background.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		90BE736927F14EB000AF987C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				90BE736A27F14EC100AF987C /* CustomFont.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,8 +215,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90BE736B27F14EC100AF987C /* CustomFont.swift in Sources */,
 				90BE735427F1496F00AF987C /* ContentView.swift in Sources */,
+				90BE736627F14D6D00AF987C /* Header.swift in Sources */,
 				90BE735227F1496F00AF987C /* SocialProofSectionApp.swift in Sources */,
+				90BE736827F14DCE00AF987C /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

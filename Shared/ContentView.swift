@@ -10,15 +10,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            ZStack(alignment: .top) {
-                Color.white
-                Image("BackgroundTopPattern")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-            }
-            .ignoresSafeArea()
+            Background()
             VStack {
-                
+                Header()
             }
         }
     }
