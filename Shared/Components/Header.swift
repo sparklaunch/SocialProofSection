@@ -11,9 +11,13 @@ struct Header: View {
     var body: some View {
         VStack {
             Text("10,000+ of our users love our products.")
+                .tracking(-1)
                 .fontWeight(.bold)
-                .customFont(fontSize: 24, relativeTo: .largeTitle)
+                .customFont(fontSize: 36, relativeTo: .largeTitle)
                 .foregroundColor(Color("TitleColor"))
+                .padding(.horizontal, 30)
+                .multilineTextAlignment(.center)
+                .lineSpacing(0)
         }
     }
 }
