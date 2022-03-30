@@ -9,14 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
-            Background()
-            VStack {
-                Header()
-                Ratings()
-                Testimonials()
+        ScrollView {
+            ZStack {
+                Background()
+                VStack {
+                    Header()
+                    Ratings()
+                    Testimonials()
+                }
+                .padding(.vertical, 150)
             }
         }
+        .ignoresSafeArea()
     }
 }
 

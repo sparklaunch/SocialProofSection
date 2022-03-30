@@ -21,7 +21,7 @@ struct Testimonial: View {
                         .resizable()
                         .frame(width: 64, height: 64)
                         .clipShape(Circle())
-                    VStack {
+                    VStack(alignment: .leading, spacing: 5) {
                         Text(name)
                             .font(.title2)
                             .bold()
