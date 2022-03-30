@@ -19,6 +19,7 @@
 		90BE736B27F14EC100AF987C /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE736A27F14EC100AF987C /* CustomFont.swift */; };
 		90BE73CA27F404AD00AF987C /* Ratings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE73C927F404AD00AF987C /* Ratings.swift */; };
 		90BE73CC27F4050900AF987C /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE73CB27F4050900AF987C /* Rating.swift */; };
+		90BE73CE27F406D500AF987C /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BE73CD27F406D500AF987C /* Star.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		90BE736A27F14EC100AF987C /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		90BE73C927F404AD00AF987C /* Ratings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ratings.swift; sourceTree = "<group>"; };
 		90BE73CB27F4050900AF987C /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		90BE73CD27F406D500AF987C /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				90BE736727F14DCE00AF987C /* Background.swift */,
 				90BE73C927F404AD00AF987C /* Ratings.swift */,
 				90BE73CB27F4050900AF987C /* Rating.swift */,
+				90BE73CD27F406D500AF987C /* Star.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				90BE73CA27F404AD00AF987C /* Ratings.swift in Sources */,
 				90BE736827F14DCE00AF987C /* Background.swift in Sources */,
 				90BE73CC27F4050900AF987C /* Rating.swift in Sources */,
+				90BE73CE27F406D500AF987C /* Star.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
