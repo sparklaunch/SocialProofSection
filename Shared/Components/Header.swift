@@ -24,7 +24,7 @@ struct Header: View {
                 .foregroundColor(Color("BodyColor"))
                 .padding(.horizontal, 30)
                 .multilineTextAlignment(.center)
-                .lineSpacing(5)
+                .lineSpacing(8)
         }
     }
 }

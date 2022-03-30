@@ -13,6 +13,7 @@ struct ContentView: View {
             Background()
             VStack {
                 Header()
+                Ratings()
             }
         }
     }
