@@ -16,7 +16,7 @@ struct Testimonial: View {
         ZStack {
             Color("TitleColor")
             VStack(alignment: .leading, spacing: 25) {
-                HStack(spacing: 30) {
+                HStack(spacing: 20) {
                     Image(profileImage)
                         .resizable()
                         .frame(width: 64, height: 64)
